@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<SpawnGroups>
+<!--=================== DO NOT EDIT ABOVE THIS LINE =======================-->
+<!--
+
+<SpawnGroup>
+    <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>ShipName</SubtypeId>
+    </Id>
+    <Description>
+        [FactionOwner:FacTAG]
+    </Description>
+    <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+    <Frequency>2.0</Frequency>
+    <IsCargoShip>true</IsCargoShip>
+    <IsPirate>true</IsPirate>
+    <IsEncounter>false</IsEncounter>
+        
+    <Prefabs>
+        <Prefab SubtypeId="BP_FileName">
+        <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+        </Position>
+        <BeaconText>BeaconIn-gameText</BeaconText>
+        <Speed>0.0</Speed>
+        </Prefab>
+    </Prefabs>
+</SpawnGroup>
+
+-->
+
+
+<!--==== ATMO SPAWNGROUP START====-->
+<!-- Scorpion? -->
+
+
+<!--==== SPACE SPAWNGROUP START====-->
+<!--  -->
+
+
+<!--==== BOSS SPAWNGROUP START====-->
+
+<!-- NIKKADUDU BOSS -->
+<!--
+
+<SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>---</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+            [RandomizeWeapons:false]
+            [BossEncounterSpace:true]
+            [BossCustomAnnounceEnable:true]
+            [BossCustomAnnounceAuthor:---]
+            [BossCustomAnnounceMessage:---]
+            [BossCustomGPSLabel:---]
+            [FactionOwner:---]
+            [ReplenishSystems:true]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>3.0</Frequency>
+
+            <Prefabs>
+                <Prefab SubtypeId="---">
+                    <Speed>0.0</Speed>
+                    <Behaviour>MES-CapitalShip</Behaviour>
+                    <BehaviourActivationDistance>20000</BehaviourActivationDistance>
+                </Prefab>
+
+            <Prefabs>
+                <Prefab SubtypeId="---">
+                    <Position>
+                        <X>50.0</X>
+                        <Y>100.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0.0</Speed>
+                    <Behaviour>MES-CapitalShip</Behaviour>
+                    <BehaviourActivationDistance>20000</BehaviourActivationDistance>
+                </Prefab>
+
+            <Prefabs>
+                <Prefab SubtypeId="---">
+                    <Position>
+                        <X>-50.0</X>
+                        <Y>100.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0.0</Speed>
+                    <Behaviour>MES-CapitalShip</Behaviour>
+                    <BehaviourActivationDistance>20000</BehaviourActivationDistance>
+                </Prefab>
+
+            </Prefabs>
+</SpawnGroup>
+
+-->
+
+<!--===================== DO NOT EDIT BELOW THIS LINE ====================-->
+</SpawnGroups>
+</Definitions>

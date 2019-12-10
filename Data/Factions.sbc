@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Faction Tag="B&CG" Founder="Indirected Energy">
+	<Id>
+		<TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+		<SubtypeId>Ball and Chain Gang</SubtypeId>
+	</Id>
+	<DisplayName>Ball and Chain Gang</DisplayName>
+	<AcceptHumans>false</AcceptHumans>
+	<AutoAcceptMember>false</AutoAcceptMember>
+	<IsDefault>true</IsDefault>
+	<DefaultRelation>Enemies</DefaultRelation>
+</Faction>
+
+<Faction Tag="USoA" Founder="Directed Energy">
+	<Id>
+		<TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+		<SubtypeId>United Space of America</SubtypeId>
+	</Id>
+	<DisplayName>United Space of America</DisplayName>
+	<AcceptHumans>false</AcceptHumans>
+	<AutoAcceptMember>false</AutoAcceptMember>
+	<IsDefault>true</IsDefault>
+	<DefaultRelation>Enemies</DefaultRelation>
+</Faction>
+
+<Faction Tag="SPPI" Founder="Red Beared">
+	<Id>
+		<TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+		<SubtypeId>Space Pirates</SubtypeId>
+	</Id>
+	<DisplayName>Space Pirates</DisplayName>
+	<AcceptHumans>false</AcceptHumans>
+	<AutoAcceptMember>false</AutoAcceptMember>
+	<IsDefault>true</IsDefault>
+	<DefaultRelation>Enemies</DefaultRelation>
+</Faction>
+
+</Definitions>
