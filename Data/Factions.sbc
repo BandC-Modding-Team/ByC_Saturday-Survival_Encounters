@@ -13,7 +13,7 @@
 	<DefaultRelation>Enemies</DefaultRelation>
 </Faction>
 
-<Faction Tag="USoA" Founder="Directed Energy">
+<Faction Tag="USoA" Founder="USA President">
 	<Id>
 		<TypeId>MyObjectBuilder_FactionDefinition</TypeId>
 		<SubtypeId>United Space of America</SubtypeId>
@@ -22,15 +22,15 @@
 	<AcceptHumans>false</AcceptHumans>
 	<AutoAcceptMember>false</AutoAcceptMember>
 	<IsDefault>true</IsDefault>
-	<DefaultRelation>Enemies</DefaultRelation>
+	<DefaultRelation>Neutral</DefaultRelation>
 </Faction>
 
-<Faction Tag="SPPI" Founder="Red Beared">
+<Faction Tag="SpSc" Founder="Red Beared">
 	<Id>
 		<TypeId>MyObjectBuilder_FactionDefinition</TypeId>
-		<SubtypeId>Space Pirates</SubtypeId>
+		<SubtypeId>Scavangers</SubtypeId>
 	</Id>
-	<DisplayName>Space Pirates</DisplayName>
+	<DisplayName>Scavangers</DisplayName>
 	<AcceptHumans>false</AcceptHumans>
 	<AutoAcceptMember>false</AutoAcceptMember>
 	<IsDefault>true</IsDefault>
